@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPnX2s+sqqYitp10kQeaIW8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jyothi-Chellappan-Ampally/Python/blob/main/py1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6TvkGXJyFH5g",
+        "outputId": "c178448b-25ed-4313-ba02-47d12e956f07"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello\n",
+            "140\n",
+            "-0.4480736161291701\n",
+            "9.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "print (\"hello\")\n",
+        "i=5\n",
+        "j=45\n",
+        "k=90\n",
+        "print(i+j+k)\n",
+        "print(np.cos(90))\n",
+        "print(np.sqrt(81))"
+      ]
+    }
+  ]
+}
